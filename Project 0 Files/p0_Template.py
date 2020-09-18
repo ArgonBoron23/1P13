@@ -22,15 +22,3 @@ update_thread = repeating_timer(2, update_sim)
 #---------------------------------------------------------------------------------
 
 
-start_time = time.time()
-my_qbot.travel_forward(0.3)
-my_qbot.rotate(-90)
-my_qbot.travel_forward(0.25)
-my_qbot.rotate(-105)
-my_qbot.travel_forward(0.3)
-my_qbot.rotate(-90)
-my_qbot.travel_forward(0.2)
-my_qbot.rotate(-100)
-my_qbot.travel_forward(0.8)
-end_time = time.time()
-print (end_time - start_time)
