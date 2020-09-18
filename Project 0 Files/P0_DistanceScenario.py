@@ -21,7 +21,6 @@ update_thread = repeating_timer(2, update_sim)
 # STUDENT CODE BEGINS
 # ---------------------------------------------------------------------------------
 
-
 start_time = time.time()  # takes initial time
 
 # First leg, leaving start moving west
